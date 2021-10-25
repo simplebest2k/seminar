@@ -32,7 +32,7 @@ public class EtcController {
 
    @GetMapping("/echo5")
    public String echo5() {
-      return "echo5";
+      return "echo5-1";
    }
 
 }
