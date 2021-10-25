@@ -27,6 +27,7 @@ public class EtcController {
 
    @GetMapping("/echo4")
    public String echo4() {
-      return "echo4";
+      return "echo4~~~";
    }
+
 }
