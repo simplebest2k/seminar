@@ -9,4 +9,9 @@ public class EtcController {
    public String echo() {
       return "echo";
    }
+
+   @GetMapping("/echo2")
+   public String echo2() {
+      return "echo2";
+   }
 }
