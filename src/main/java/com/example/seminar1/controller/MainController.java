@@ -35,9 +35,4 @@ public class MainController {
       return "send6";
    }
 
-   @GetMapping("/send7")
-   public String send7() {
-      return "send7-1";
-   }
-
 }
