@@ -37,7 +37,7 @@ public class MainController {
 
    @GetMapping("/send7")
    public String send7() {
-      return "send7";
+      return "send7-1";
    }
 
 }
