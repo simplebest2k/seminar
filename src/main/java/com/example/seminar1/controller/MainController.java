@@ -14,9 +14,4 @@ public class MainController {
    public String send2() {
       return "send2";
    }
-
-   @GetMapping("/send3")
-   public String send3() {
-      return "send3";
-   }
 }
