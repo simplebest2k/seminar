@@ -25,5 +25,10 @@ public class MainController {
       return "send4";
    }
 
+   @GetMapping("/send5")
+   public String send5() {
+      return "send5";
+   }
+
 
 }
